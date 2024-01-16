@@ -13,6 +13,8 @@ Data Cleaning:
 - Write reformatted data set to a csv file and create SQL database;
 - Retrieve data from SQL database.
 
+![Alt text](image.png)
+
 Data Analysis:
 - With the help of graphs and plots identify factors contributing to determining used car price;
 - Remove any outliers.
