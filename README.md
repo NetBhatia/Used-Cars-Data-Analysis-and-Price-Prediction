@@ -21,15 +21,15 @@ Data Cleaning:
 - Write reformatted data set to a csv file and create SQL database;
 - Retrieve data from SQL database.
 
-![Alt text](image.png)
+![Alt text](Images/image.png)
 
 Data Analysis:
 - With the help of graphs and plots identify factors contributing to determining used car price;
 - Remove any outliers.
 
-![Alt text](image-1.png)
+![Alt text](Images/image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](Images/image-2.png)
 
 Initial observations from the graph above:
 
@@ -39,28 +39,28 @@ Initial observations from the graph above:
 
 Graph of car price vs car make: 
 
-![Alt text](image-3.png)
-![Alt text](image-4.png)
+![Alt text](Images/image-3.png)
+![Alt text](Images/image-4.png)
 
 Following Make have much lower prices than others: 
 
 Chevrolet, Mercedes-Benz, BMW, Porsche, Land, Volvo, Lexus, Acura, Maserati,
 Subaru, Audi, GMC, Cadillac, Ram, Alfa, Aston, Genesis, Karma, Scion, Bentley, Saturn.
 
-![Alt text](image-5.png)
+![Alt text](Images/image-5.png)
 
 
-![Alt text](image-6.png)
+![Alt text](Images/image-6.png)
 
-![Alt text](image-7.png)
+![Alt text](Images/image-7.png)
 
-![Alt text](image-8.png)
+![Alt text](Images/image-8.png)
 
-![Alt text](image-9.png)
+![Alt text](Images/image-9.png)
 
-![Alt text](image-10.png)
+![Alt text](Images/image-10.png)
 
-![Alt text](image-11.png)
+![Alt text](Images/image-11.png)
 
 From the graph above, we can see mileage contributes to determining the price however it is not the only factor determining the price. Other factors such as number of previous owners, accidents, make and model, year of make are also factors determining the price. It is a wholistic view of the car history that determines its price rather than a single factor.
 
@@ -74,15 +74,15 @@ Data Modelling:
 - For the purpose of predicting used cars price, two models were created using RandomForestRegressor and KNeighborsRegressor functions.
 - Data was trained and tested.
 
-![Alt text](image-12.png)
+![Alt text](Images/image-12.png)
 
-![Alt text](image-13.png)
+![Alt text](Images/image-13.png)
 
-![Alt text](image-14.png)
+![Alt text](Images/image-14.png)
 
-![Alt text](image-15.png)
+![Alt text](Images/image-15.png)
 
-![Alt text](image-16.png)
+![Alt text](Images/image-16.png)
 
 Random Forest Model returned better results than the KNN Model. KNN model appears to be an overfit.
 
@@ -90,9 +90,9 @@ R2 Score for RandomForestRegressor model is about 0.68, which reflects a fair pe
 
 Model performance results are presented in the scatter plot graphs below:
 
-![Alt text](image-17.png)
+![Alt text](Images/image-17.png)
 
-![Alt text](image-18.png)
+![Alt text](Images/image-18.png)
 
 
 We created another model using tensorflow to see if we could obtain better results:
@@ -108,9 +108,9 @@ Steps to create deep learning model:
 7. Compile and train the model. Compile metrics was RSquare to predict the car values.
 8. Evaluate the model. Plot the results.
 
-![Alt text](image-20.png)
+![Alt text](Images/image-20.png)
 
-![Alt text](image-21.png)
+![Alt text](Images/image-21.png)
 
 Test the model:
 1. Create another jupyter notebook, import libraries. 
@@ -120,7 +120,7 @@ Test the model:
 
 The outcome was as follows:
 
-![Alt text](image-22.png)
+![Alt text](Images/image-22.png)
 
 
 
