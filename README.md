@@ -104,7 +104,7 @@ Steps to create deep learning model:
 4. Create a QuantileTransformer instance.
 5. Fit the scaler and scale the data.
 6. Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer
-![Alt text](image-19.png)
+![Alt text](Images/image-19.png)
 7. Compile and train the model. Compile metrics was RSquare to predict the car values.
 8. Evaluate the model. Plot the results.
 
